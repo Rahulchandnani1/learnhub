@@ -5,7 +5,7 @@ getAdminStats
 ,getMonthlyUsers,getPopularCourses,getMonthlyEnrollments
 }
 from "../services/adminDashboardService";
-import "../styles/Dashboard.css";
+import "../styles/dashboard.css";
 import {
 
 Chart as ChartJS,
