@@ -1,0 +1,86 @@
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  overflow: hidden;
+  transition: .3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card-header {
+  padding: 18px;
+  background: #2563eb;
+  color: white;
+}
+
+.course-card-body {
+  padding: 20px;
+}
+
+.course-card-body p {
+  color: #555;
+  min-height: 70px;
+}
+
+.course-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #16a34a;
+  margin-top: 15px;
+}
+
+.course-card-footer {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+
+.course-card-footer button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #f59e0b;
+  color: white;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.enroll-btn {
+  background: #2563eb;
+  color: white;
+}
+.course-actions{
+
+  display:flex;
+
+  gap:10px;
+
+  margin-top:15px;
+
+  padding: 10px;
+
+}
+
+.course-actions button{
+
+  flex:1;
+
+}
