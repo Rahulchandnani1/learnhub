@@ -4,7 +4,7 @@ import CourseTable from "../components/CourseTable";
 import { getCourses ,  createCourse, updateCourse,
   deleteCourse,enrollCourse} from "../services/courseService";
 import CourseForm from "../components/CourseForm";
-import "../styles/Dashboard.css";
+import "../styles/dashboard.css";
 import CourseCard from "../components/CourseCard";
 const Courses = () => {
 
