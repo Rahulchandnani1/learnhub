@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://learnhub-backend-rkg9.onrender.com/api",
+  baseURL:import.meta.env.VITE_API_URL,
 });
 api.interceptors.request.use(
   (config) => {
@@ -44,7 +44,7 @@ api.interceptors.response.use(
         }
 
         const response = await axios.post(
-          "https://learnhub-backend-rkg9.onrender.com/api/auth/refresh-token",
+          `${import.meta.env.VITE_API_URL}/auth/refresh-token`,
           {
             refreshToken,
           }
