@@ -68,3 +68,35 @@ background:rgba(0,0,0,.45);
 z-index:999;
 
 }
+/*  */
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 15px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  color: #333;
+  background: transparent;
+
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.sidebar nav a:hover {
+  background: #f1f5f9;
+  color: #2563eb;
+}
+
+.sidebar nav a.active {
+  background: #2563eb;
+  color: #ffffff;
+}
